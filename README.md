@@ -1,5 +1,5 @@
 # setup docker container structure test tool
-[![LICENSE](https://img.shields.io/github/license/md-actions/setup-container-structure-test)](https://github.com/md-actions/setup-container-structure-test/blob/main/LICENSE)
+[![LICENSE](https://img.shields.io/github/license/freenet-actions/setup-container-structure-test)](https://github.com/freenet-actions/setup-container-structure-test/blob/main/LICENSE)
 
 container-structure-test is a command line tool used to test the structure of Docker Images ([see the manual](https://github.com/GoogleContainerTools/container-structure-test)).
 
