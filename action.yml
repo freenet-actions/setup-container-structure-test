@@ -1,11 +1,11 @@
 name: 'setup-container-struture-test'
 description: 'setup container-struture-test'
-author: 'DPVO'
+author: 'freenet'
 inputs:
   version: 
     required: true
     description: 'Version of container-struture-test'
     default: '1.10.0'
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'dist/index.js'

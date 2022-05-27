@@ -9,11 +9,11 @@ This action sets up container-structure-test tool. It downloads the binary from 
 # Usage
 ## Set up default container structure test version (1.10.0)
 ```yaml
-- uses: freenet-actions/setup-container-structure-test@v1
+- uses: freenet-actions/setup-container-structure-test@v2
 ```
 ## Set up specific structure test version
 ```yaml
-- uses: freenet-actions/setup-container-structure-test@v1
+- uses: freenet-actions/setup-container-structure-test@v2
   with:
     version: 1.10.0
 ```
