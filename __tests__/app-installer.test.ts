@@ -9,7 +9,7 @@ const toolName = 'container-structure-test'
 describe('app installer tests', () => {
   it('check the installation', async () => {
     const toolDir = process.env['RUNNER_TOOL_CACHE'] as string
-    const version = '1.10.0'
+    const version = '1.17.0'
     await installer.install(version)
     const dir = path.join(toolDir, toolName, version, os.arch())
     if (process.platform === 'win32') {
