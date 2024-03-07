@@ -89,7 +89,7 @@ function getDownloadUrl(version, tool) {
         const errormsg = `Unsupported platform.platform:${os.platform()},arch:${os.arch()}`;
         throw new Error(errormsg);
     }
-    return `https://storage.googleapis.com/${tool}/v${version}/${tool}-${platform}-${arch}${extension}`;
+    return `https://github.com/GoogleContainerTools/${tool}/releases/download/v${version}/${tool}-${platform}-${arch}${extension}`;
 }
 function getBinary(toolName, version, url) {
     return __awaiter(this, void 0, void 0, function* () {
