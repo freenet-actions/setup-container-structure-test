@@ -1,6 +1,6 @@
 {
   "name": "setup-container-structure-test",
-  "version": "3.0.2",
+  "version": "4.0.0",
   "private": true,
   "description": "Setup the container-structure-test tools",
   "main": "lib/main.js",

@@ -50,7 +50,7 @@ function getDownloadUrl(version: string, tool: string): string {
     const errormsg = `Unsupported platform.platform:${os.platform()},arch:${os.arch()}`
     throw new Error(errormsg)
   }
-  return `https://storage.googleapis.com/${tool}/v${version}/${tool}-${platform}-${arch}${extension}` 
+  return `https://github.com/GoogleContainerTools/${tool}/releases/download/v${version}/${tool}-${platform}-${arch}${extension}`
 }
 
 async function getBinary(
