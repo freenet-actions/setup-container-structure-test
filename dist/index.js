@@ -39,7 +39,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.install = void 0;
+exports.install = install;
 const core = __importStar(__nccwpck_require__(2186));
 const fs = __importStar(__nccwpck_require__(7147));
 const os = __importStar(__nccwpck_require__(2037));
@@ -59,7 +59,6 @@ function install(version) {
         core.addPath(path.dirname(appPath));
     });
 }
-exports.install = install;
 function getArch() {
     let archName = null;
     switch (os.arch()) {
