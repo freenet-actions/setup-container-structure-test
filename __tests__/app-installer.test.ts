@@ -20,6 +20,5 @@ describe('app installer tests', () => {
     const processPath = process.env['PATH']
     expect(processPath).toContain(toolName)
     core.debug(`path ${processPath}`)
-    
   }, 20000)
 })

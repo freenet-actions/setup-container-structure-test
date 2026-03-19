@@ -20,20 +20,6 @@ export async function install(version: string): Promise<void> {
   core.addPath(path.dirname(appPath))
 }
 
-function getArch(): string {
-  let archName: string | null = null
-  switch (os.arch()) {
-    case 'x64':
-      archName = `amd64`
-      break
-  }
-  if (!archName) {
-    const errormsg = `Unsupported arch:${os.arch()}`
-    throw new Error(errormsg)
-  }
-  return archName
-}
-
 function getDownloadUrl(version: string, tool: string): string {
   const platformMap: {[platform: string]: string} = {
     linux: 'linux',
