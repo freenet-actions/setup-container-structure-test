@@ -25,10 +25,11 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "3.0.0",
+    "@actions/core": "2.0.1",
     "@actions/tool-cache": "3.0.1"
   },
   "devDependencies": {
+    "@actions/io": "2.0.0",
     "@stylistic/eslint-plugin": "5.10.0",
     "@types/jest": "30.0.0",
     "@types/node": "24.12.0",
